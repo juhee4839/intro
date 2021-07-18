@@ -1,0 +1,135 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    height: 1000vh;
+    max-width: 1900px;
+    margin:auto;
+    font-family: "Roboto";
+    color:#14110d;
+
+}
+
+/*intro section*/
+
+.intro{
+    width:100%;
+    height:500px;
+    background-color: #ffe4bd;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro__info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right:1px solid rgba(20,17,13,0.3)
+}
+
+.intro > article{
+    width:50%;
+}
+
+.intro__info > div > img{
+    width:150px;
+    height:200px;
+    border-radius: 10px;
+}
+
+.intro__info__txt{
+    margin-left:60px
+}
+
+.intro__info__txt >h1,
+.intro__info__txt > li{
+    margin:15px 0px;
+}
+
+.intro__info__txt > li{
+ line-height: 20px;   
+}
+
+.intro__info__txt > h1,
+.intro__stack__txt > h1{
+    font-size: 28px;
+    line-height: 60px;
+}
+
+.intro__info__txt > li > b{
+    font-size:18px;
+    font-weight: bold;
+}
+
+
+/*Teck stack*/
+
+.intro__stack{
+    margin-left:20px;
+
+}
+
+
+.intro__stack__txt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left:100px;
+    
+}
+
+.intro__stack__txt > li{
+    margin: 10px 0px
+
+}
+
+.intro_bar__click{
+    height:200px;
+    background-color:#14110d;
+}
+
+.intro_bar__click > span{
+    font-size: 24px;
+    color:#ffe4bd;
+    margin: auto;
+}
+
+.intro_bar__click > span > a{
+    color:inherit;
+}
+
+
+/*intro_bar*/
+.intro_bar{
+    height: 600px;
+    background-color: #14110d;
+    display: none;
+}
+
+.intro_bar__stack_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro_bar__stack_link{
+    width:80%;
+    margin:auto;
+    transform: translateY(50%);
+}
+
+.intro_bar__stack_link > li{
+    width:120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color:#ffe4bd ;
+    margin:0px auto;
+    padding:40px 20px;
+    box-sizing: border-box;
+    font-size: 13px;
+    text-align: center;
+    line-height: 20px;
+}
