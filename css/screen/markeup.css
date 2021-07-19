@@ -1,0 +1,83 @@
+.markeup{
+    height:600px;
+    background-color: var(--main_wheat_color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.markeup > h1{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-left:100px;
+    margin-bottom:150px;
+    
+}
+
+
+.markeup > article {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom:200px;
+}
+
+.markup__gnb{
+    margin: 0px 100px;
+}
+
+.markup__gnb > li:first-child{
+    font-size: 28px;
+}
+
+
+/*starbuck img 정렬*/
+
+.starbucks__gnb > li:first-child{
+    font-size: 28px;
+    font-weight: bold;
+    color:var(--main_brown_color);
+    margin-bottom:35px;
+}
+
+.starbucks__gnb > li:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.starbucks__gnb > li:nth-child(2) > span >  img{
+    width:550px;
+    height:280px;
+}
+
+.starbucks__sm__gnb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:250px;
+}
+
+.starbucks__sm__gnb > li{
+    margin: 10px 5px;
+    opacity: 0.8;
+}
+
+.starbucks__sm__gnb > li:hover{
+    opacity: 1;
+}
+
+
+.starbucks__sm__gnb > li img{
+    width:80px;
+    height:50px;
+}
+
+.starbucks__gnb > li:nth-child(3){
+    margin-left:360px;
+    font-size: 18px;
+    font-weight: bold;
+}

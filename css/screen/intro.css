@@ -3,7 +3,7 @@
 .intro{
     width:100%;
     height:500px;
-    background-color: #ffe4bd;
+    background-color: var(--main_wheat_color);
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -75,13 +75,13 @@
 
 .intro_bar__click{
     height:200px;
-    background-color:#14110d;
+    background-color:var(--main_brown_color);
 }
 
 .intro_bar__click > div{
     width:50%;
     font-size: 24px;
-    color:#ffe4bd;
+    color:var(--main_wheat_color);
     margin: auto;
     padding: 80px 300px;
     box-sizing: border-box;
@@ -97,7 +97,7 @@
 .intro__click{
     height: 250px;
     padding:50px 0px;
-    background-color: #14110d;
+    background-color: var(--main_brown_color);
 }
 
 .intro__click > article{
@@ -118,7 +118,7 @@
     width:140px;
     height:140px;
     border-radius: 50%;
-    background-color: #ffe4bd;
+    background-color: var(--main_wheat_color);
     margin:0px 30px;
     padding:60px 10px;
     box-sizing: border-box;
