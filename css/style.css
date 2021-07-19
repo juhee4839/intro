@@ -1,10 +1,12 @@
 @import url(reset.css);
+@import url(variables.css);
 
 /*components*/
 @import url(components/nav.css);
 
 /*screens*/
 @import url(screen/intro.css);
+@import url(screen/markeup.css);
 
 
 
@@ -13,9 +15,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body{
-    height: 1000vh;
-    max-width: 1900px;
+    width:100%;
     margin:auto;
     font-family: "Roboto";
     color:#14110d;
+    height:100vh;
 }

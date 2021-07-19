@@ -95,7 +95,8 @@
 
 /*intro_bar*/
 .intro__click{
-    height: 400px;
+    height: 250px;
+    padding:50px 0px;
     background-color: #14110d;
 }
 
@@ -104,27 +105,14 @@
     margin:auto;
 }
 
-.intro__click__column{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.intro__click__column > span{
-    font-size:28px;
-    color:#ffe4bd;
-    text-align: center;
-    margin:50px 0px;
-}
-
-
 
 .intro_bar__stack_link{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top:50px;
 }
+
 
 .intro_bar__stack_link > li{
     width:140px;
