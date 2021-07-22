@@ -9,6 +9,7 @@ function handleClick(e){
 
 intro_click.addEventListener("click",handleClick);*/
 
+
 /*
 
 <<<<<<< HEAD
@@ -21,7 +22,7 @@ smImg.forEach(sImg => sImg.addEventListener("click",function(){
 function handdleClick(){
     
 }
-=======
+>>>>>>> 25ed42633edf3b0c396945e512abfa1f596747e2
 const smImgs = document.querySelectorAll("#smImg > li");
 const lgImgs = document.querySelectorAll("#lgImg > li");
 
@@ -36,6 +37,7 @@ smImgs.forEach(smImg => smImg.addEventListener("click",function(){
 function getElementIndex(element, range) {//요소의 index번호를 구하는 함수
     return [].indexOf.call(element, range);
     //return [].indexOf.call(element.parentNode.children, element);
+<<<<<<< HEAD
 }
 >>>>>>> 25ed42633edf3b0c396945e512abfa1f596747e2
 */

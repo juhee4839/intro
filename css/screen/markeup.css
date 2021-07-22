@@ -98,6 +98,9 @@
 .starbucks__sm__gnb > li.on{
     display:none;
 }
+.starbucks__sm__gnb > li.on{
+    color:red;
+}
 
 .starbucks__sm__gnb > li:hover{
     opacity: 1;
