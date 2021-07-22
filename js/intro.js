@@ -8,3 +8,13 @@ function handleClick(e){
 }
 
 intro_click.addEventListener("click",handleClick);*/
+
+const smImg = document.querySelectorAll("#smImg > li");
+const lgImg = document.querySelectorAll("#lgImg > li");
+
+smImg.forEach(sImg => sImg.addEventListener("click",function(){
+    
+}))
+function handdleClick(){
+    
+}
