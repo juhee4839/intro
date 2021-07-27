@@ -1,0 +1,121 @@
+body{
+    width:400px;
+    height:100vh;
+    background-color:#6BBCBE;
+    margin:auto;
+    
+}
+
+section{
+    margin:300px auto;
+    
+   
+}
+
+
+
+article:first-child{
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+    margin-bottom:50px;
+ 
+
+
+}
+
+article:nth-child(2){
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+   
+       
+}
+.circle{
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background-color: white;
+    margin:0 10px;
+
+}
+
+
+.line{
+    width:8px;
+    height:30px;
+    background-color: white;
+    margin-right:3px;
+}
+
+.circle_main{
+    animation:coinflip 2s 0.8s linear infinite;   
+
+}
+
+@keyframes coinflip {
+    0%{
+        transform:rotate(0deg);
+    }
+    25%{
+        transform:rotate(180deg);
+    }
+    50%{
+        transform:rotate(180deg);
+    }
+    75%{
+        transform:rotate(360deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+
+
+
+
+
+
+.line1{
+    animation: line 0.8s 0.2s ease-out infinite;
+}
+
+.line2{
+    animation: line 0.8s 0.3s ease-out infinite;
+}
+.line3{
+    animation: line 0.8s 0.4s ease-out infinite;
+}
+.line4{
+    animation: line 0.8s 0.5s ease-out infinite;
+}
+.line5{
+    animation: line 0.8s 0.6s ease-out infinite;
+}
+
+
+
+
+@keyframes line{
+    0%{ 
+        transform:scaleY(1);
+    }
+    25%{
+        transform:scaleY(1);
+    }
+
+    50%{
+        transform:scaleY(2);
+    }
+
+    75%{
+        transform:scaleY(1);
+    }
+
+    100%{
+        transform:scaleY(1);
+    }
+}
