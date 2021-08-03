@@ -6,6 +6,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    margin:auto;
 }
 
 .markeup > article{
@@ -80,6 +81,7 @@
     align-items: center;
     margin-left:1000px;
     margin-top:30px;
+    cursor: pointer;
 }
 
 .starbucks__sm__gnb > li{
@@ -128,7 +130,9 @@
     font-size: 16px;
     font-weight: bold;
 }
+.starbucks__link > span{
 
+}
 
 
 /*wedding*/
@@ -221,6 +225,7 @@
 .chat__img > li > img{
     width:380px;
     height:600px;
+    margin:0px 20px;
 }
 
 
@@ -262,6 +267,22 @@
     margin-left:960px;
     font-size: 16px;
     font-weight: bold;
+    }
+
+
+    .chat__gnb > h2{
+        font-size:40px;
+        font-weight: bold;
+        padding-bottom:50px;
+
+    }
+
+        
+    .chat_btns{
+        margin-right: 50px;
+    }
+    .chat_btn{
+        margin-right: 30px;
     }
 
 /*
