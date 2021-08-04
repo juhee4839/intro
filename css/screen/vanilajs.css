@@ -1,0 +1,12 @@
+
+
+.chrome_gnb > li{
+    width: 1400px;
+    height: 700px;
+    margin: 50px 0px;
+}
+
+.chrome_gnb > li >img{
+    width:100%;
+}
+

@@ -1,0 +1,20 @@
+
+
+
+.react {
+    width: 100%;
+}
+.react_gnb{
+    margin:auto;
+}
+.react_movie_gnb > li{
+    margin:50px 0px;
+}
+
+.react_movie_gnb > li >img{
+    width:100%;
+}
+
+.movie__link{
+    width:75%;
+}

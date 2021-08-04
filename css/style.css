@@ -8,6 +8,8 @@
 /*screens*/
 @import url(screen/intro.css);
 @import url(screen/markeup.css);
+@import url(screen/vanilajs.css);
+@import url(screen/react.css);
 
 
 
@@ -22,10 +24,15 @@ body{
     color:var(--main_brown_color);
     background-color: var(--main_wheat_color);
     height:100vh;
+    box-sizing: border-box;
 }
 
 main{
     width:100%;
     padding:0px 50px;
-    box-sizing: border-box;
+}
+
+
+section{
+    padding:150px 0px;
 }
