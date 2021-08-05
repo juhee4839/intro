@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!--font awesome CDN-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <title>HTML/CSS</title>
@@ -38,26 +39,18 @@
                     <div class="markup__gnb starbucks__gnb">
                       <h2>STARBUCKS</h2>
                         <div class="starbucks__gnb_wrap">
-                            <ul id="lgImg" class="starbucks_lg">
+                            <ul id="lgImg" class="starbucks_lg fade">
                                 <li class="on"><img src="img/starbucks.PNG"></li>
                                 <li><img src="img/starbucks2.PNG"></li>
                                 <li><img src="img/starbucks3.PNG"></li>
                                 <li><img src="img/starbucks4.PNG"></li>
                             </ul>
                             
-                            <ul id="smImg" class="starbucks__sm__gnb">
-                                    <li>
-                                        <a href="#"></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"></a>
-                                    </li>
+                            <ul id="smImg" class="starbucks__sm__gnb dot">
+                                    <li class="on"></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
                             </ul>
                             <div  class="starbucks__link">
                                    <a href="https://juhee4839.github.io/starbucks_repage/" target="_blank">
@@ -70,25 +63,17 @@
                     <div class="markup__gnb wedding__gnb">
                         <h2>WEDDING</h2>
                         <div class="wedding__gnb__wrap">
-                            <ul class="wedding__img"> 
-                                <li><img src="img/wedding.PNG"></li>
+                            <ul class="wedding__img fade"> 
+                                <li class="on"><img src="img/wedding.PNG"></li>
                                 <li><img src="img/wedding2.PNG"></li>
                                 <li><img src="img/wedding3.PNG"></li> 
                                 <li><img src="img/wedding4.PNG"></li>
                             </ul>
-                            <ul id="smImg" class="starbucks__sm__gnb">
-                                <li>
-                                    <a href="#"></a>
-                                </li>
-                                <li>
-                                    <a href="#"></a>
-                                </li>
-                                <li>
-                                    <a href="#"></a>
-                                </li>
-                                <li>
-                                    <a href="#"></a>
-                                </li>
+                            <ul id="smImg" class="starbucks__sm__gnb dot">
+                                <li class="on"></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
                              </ul>
                              <div  class="starbucks__link">
                                 <a href="#"  target="_blank">
@@ -149,5 +134,6 @@
 
 
     <script src="js/intro.js"></script>
+    <script src="js/dot.js"></script>
 </body>
 </html>

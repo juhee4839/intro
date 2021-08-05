@@ -60,13 +60,17 @@
     height:600px;
     position:absolute;
     left:0; top:0;
-    display:none;
+    opacity:0; visibility: hidden;
+    transition:all 0.5s;
 }
-.starbucks_lg > li.on{display:block;}
+.starbucks_lg > li.on{
+    opacity:1; visibility: visible;
+}
 .starbucks_lg > li > img{
     width:1200px;
     height:600px;
 }
+
 .starbucks__sm__gnb{
     width:100%;
     display: flex;
@@ -82,21 +86,13 @@
     background-color: var(--main_brown_color);
     opacity: 0.8;
     margin-left:10px;
+    transition:all 0.3s;
 }
 
-.starbucks__sm__gnb > li:last-child{
+.starbucks__sm__gnb > li.on{
     width:60px;
     height:20px;
     border-radius: 15px;
-
-}
-
-
-.starbucks__sm__gnb > li.on{
-    display:none;
-}
-.starbucks__sm__gnb > li.on{
-    color:red;
 }
 
 .starbucks__sm__gnb > li:hover{
@@ -104,10 +100,7 @@
 }
 
 
-.starbucks__sm__gnb > li img{
-    width:80px;
-    height:50px;
-}
+
 
 .starbucks__gnb > li:nth-child(3){
     margin-left:360px;
@@ -173,7 +166,13 @@
     height:600px;
     position:absolute;
     left:0; top:0;
-    
+    opacity:0; visibility:hidden;
+    transition: all 0.5s;    
+}
+
+.wedding__img > li.on{
+    opacity: 1;
+    visibility: visible;
 }
 
 .wedding__img > li > img{

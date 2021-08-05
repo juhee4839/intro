@@ -36,3 +36,14 @@ main{
 section{
     padding:150px 0px;
 }
+
+
+
+/*dot*/
+.dot{
+    cursor: pointer;
+}
+
+.on{
+    display: visible;
+}
