@@ -10,40 +10,36 @@
 @import url(screen/markeup.css);
 @import url(screen/vanilajs.css);
 @import url(screen/react.css);
-
-
+@import url(screen/node.css);
 
 /*google.fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
-body{
-    width:100%;
-    margin:auto;
-    font-family: "Roboto";
-    color:var(--main_brown_color);
-    background-color: var(--main_wheat_color);
-    height:100vh;
-    box-sizing: border-box;
+body {
+  width: 100%;
+  margin: auto;
+  font-family: "Roboto";
+  color: var(--main_brown_color);
+  background-color: var(--main_wheat_color);
+  height: 100vh;
+  box-sizing: border-box;
 }
 
-main{
-    width:100%;
-    padding:0px 50px;
+main {
+  width: 100%;
+  padding: 0px 50px;
 }
 
-
-section{
-    padding:150px 0px;
+section {
+  padding: 150px 0px;
 }
-
-
 
 /*dot*/
-.dot{
-    cursor: pointer;
+.dot {
+  cursor: pointer;
 }
 
-.on{
-    display: visible;
+.on {
+  display: visible;
 }
